@@ -64,11 +64,11 @@ public class Logos
     boolean bool = false;
     try
     {
-      byte[] arrayOfByte1 = new byte['Ā'];
-      byte[] arrayOfByte2 = new byte['Ā'];
-      byte[] arrayOfByte3 = new byte['Ā'];
-      byte[] arrayOfByte4 = new byte['Ā'];
-      int[] arrayOfInt = new int['Ѐ'];
+      byte[] arrayOfByte1 = new byte[256];
+      byte[] arrayOfByte2 = new byte[256];
+      byte[] arrayOfByte3 = new byte[256];
+      byte[] arrayOfByte4 = new byte[256];
+      int[] arrayOfInt = new int[1024];
       Raster localRaster = paramBufferedImage.getData();
       ColorModel localColorModel = paramBufferedImage.getColorModel();
       if ((localColorModel instanceof IndexColorModel))
