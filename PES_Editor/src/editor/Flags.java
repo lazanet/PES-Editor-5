@@ -124,10 +124,10 @@ public class Flags
     boolean bool = false;
     try
     {
-      byte[] arrayOfByte1 = new byte['Ā'];
-      byte[] arrayOfByte2 = new byte['Ā'];
-      byte[] arrayOfByte3 = new byte['Ā'];
-      byte[] arrayOfByte4 = new byte['Ā'];
+      byte[] arrayOfByte1 = new byte[256];
+      byte[] arrayOfByte2 = new byte[256];
+      byte[] arrayOfByte3 = new byte[256];
+      byte[] arrayOfByte4 = new byte[256];
       int[] arrayOfInt = new int[raster];
       Raster localRaster = paramBufferedImage.getData();
       ColorModel localColorModel = paramBufferedImage.getColorModel();
@@ -223,10 +223,10 @@ public class Flags
     boolean bool = false;
     try
     {
-      byte[] arrayOfByte1 = new byte['Ā'];
-      byte[] arrayOfByte2 = new byte['Ā'];
-      byte[] arrayOfByte3 = new byte['Ā'];
-      byte[] arrayOfByte4 = new byte['Ā'];
+      byte[] arrayOfByte1 = new byte[256];
+      byte[] arrayOfByte2 = new byte[256];
+      byte[] arrayOfByte3 = new byte[256];
+      byte[] arrayOfByte4 = new byte[256];
       int[] arrayOfInt = new int[raster];
       int j = startAdr + 49 * size - paramInt / 2 * size + paramInt % 2 * sizeB;
       Raster localRaster = paramBufferedImage.getData();
