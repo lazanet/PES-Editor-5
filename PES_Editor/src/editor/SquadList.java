@@ -31,7 +31,7 @@ public class SquadList
     }
     if (this.team == 217)
     {
-      Player[] arrayOfPlayer2 = new Player['ᐿ'];
+      Player[] arrayOfPlayer2 = new Player[4999];
       for (int k = 1; k < 5000; k++) {
         arrayOfPlayer2[(k - 1)] = new Player(this.of, k, 0);
       }
