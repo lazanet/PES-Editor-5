@@ -65,9 +65,9 @@ public class SelectByTeam
   {
     String[] arrayOfString1;
     if (this.normal) {
-      arrayOfString1 = new String['Ù'];
+      arrayOfString1 = new String[217];
     } else {
-      arrayOfString1 = new String['Ú'];
+      arrayOfString1 = new String[218];
     }
     System.arraycopy(Stat.nation, 0, arrayOfString1, 0, 57);
     System.arraycopy(PES4Utils.extraSquad, 0, arrayOfString1, 57, 17);
