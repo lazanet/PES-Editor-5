@@ -167,8 +167,8 @@ public class OptionFile
   {
     this.data[45] = 1;
     this.data[46] = 1;
-    this.data['ᝆ'] = 1;
-    this.data['ᝇ'] = 1;
+    this.data[5958] = 1;
+    this.data[5959] = 1;
     boolean bool = true;
     if (this.format == 3)
     {
