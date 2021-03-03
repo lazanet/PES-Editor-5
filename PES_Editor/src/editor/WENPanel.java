@@ -46,9 +46,9 @@ public class WENPanel
       this.of.data[48] = this.of.toByte(paramInt & 0xFF);
       this.of.data[49] = this.of.toByte((paramInt & 0xFF00) >>> 8);
       this.of.data[50] = this.of.toByte((paramInt & 0xFF0000) >>> 16);
-      this.of.data['ᑄ'] = this.of.toByte(paramInt & 0xFF);
-      this.of.data['ᑅ'] = this.of.toByte((paramInt & 0xFF00) >>> 8);
-      this.of.data['ᑆ'] = this.of.toByte((paramInt & 0xFF0000) >>> 16);
+      this.of.data[5188] = this.of.toByte(paramInt & 0xFF);
+      this.of.data[5189] = this.of.toByte((paramInt & 0xFF00) >>> 8);
+      this.of.data[5190] = this.of.toByte((paramInt & 0xFF0000) >>> 16);
       refresh();
     }
     else
