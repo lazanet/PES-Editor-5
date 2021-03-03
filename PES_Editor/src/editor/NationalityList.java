@@ -23,7 +23,7 @@ public class NationalityList
   public void refresh(int paramInt, boolean paramBoolean)
   {
     int k = 0;
-    Player[] arrayOfPlayer2 = new Player['ᐿ'];
+    Player[] arrayOfPlayer2 = new Player[5183];
     if (paramInt == 114)
     {
       for (int m = 1; m < 5000; m++) {
@@ -104,7 +104,7 @@ public class NationalityList
       }
       else if (paramInt == 112)
       {
-        arrayOfPlayer2 = new Player['ᎇ'];
+        arrayOfPlayer2 = new Player[4999];
         for (n = 1; n < 5000; n++) {
           arrayOfPlayer2[(n - 1)] = new Player(this.of, n, 0);
         }
