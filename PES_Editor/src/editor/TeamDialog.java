@@ -17,7 +17,7 @@ public class TeamDialog
 {
   OptionFile of;
   FormPanel formPan;
-  byte[] original = new byte['ɴ'];
+  byte[] original = new byte[628];
   int squadIndex;
   
   public TeamDialog(Frame paramFrame, OptionFile paramOptionFile)
