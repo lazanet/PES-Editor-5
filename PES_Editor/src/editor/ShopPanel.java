@@ -27,26 +27,26 @@ public class ShopPanel
     {
       public void actionPerformed(ActionEvent paramAnonymousActionEvent)
       {
-        ShopPanel.this.of.data['ᐘ'] = -1;
-        ShopPanel.this.of.data['ᐙ'] = -1;
-        ShopPanel.this.of.data['ᐚ'] = 3;
-        ShopPanel.this.of.data['ᐜ'] = -1;
-        ShopPanel.this.of.data['ᐝ'] = -1;
-        ShopPanel.this.of.data['ᐞ'] = -1;
-        ShopPanel.this.of.data['ᐟ'] = -1;
-        ShopPanel.this.of.data['ᐠ'] = -1;
-        ShopPanel.this.of.data['ᐡ'] = -1;
-        ShopPanel.this.of.data['ᐢ'] = -1;
-        ShopPanel.this.of.data['ᐣ'] = -1;
-        ShopPanel.this.of.data['ᐤ'] = -1;
-        ShopPanel.this.of.data['ᐥ'] = -1;
-        ShopPanel.this.of.data['ᐦ'] = -1;
-        ShopPanel.this.of.data['ᐧ'] = -1;
-        ShopPanel.this.of.data['ᐨ'] = -1;
-        ShopPanel.this.of.data['ᐩ'] = -1;
-        ShopPanel.this.of.data['ᐪ'] = -1;
-        ShopPanel.this.of.data['ᐫ'] = -1;
-        ShopPanel.this.of.data['ᐬ'] = Byte.MAX_VALUE;
+        ShopPanel.this.of.data[5144] = -1;
+        ShopPanel.this.of.data[5145] = -1;
+        ShopPanel.this.of.data[5146] = 3;
+        ShopPanel.this.of.data[5148] = -1;
+        ShopPanel.this.of.data[5149] = -1;
+        ShopPanel.this.of.data[5150] = -1;
+        ShopPanel.this.of.data[5151] = -1;
+        ShopPanel.this.of.data[5152] = -1;
+        ShopPanel.this.of.data[5153] = -1;
+        ShopPanel.this.of.data[5154] = -1;
+        ShopPanel.this.of.data[5155] = -1;
+        ShopPanel.this.of.data[5156] = -1;
+        ShopPanel.this.of.data[5157] = -1;
+        ShopPanel.this.of.data[5158] = -1;
+        ShopPanel.this.of.data[5159] = -1;
+        ShopPanel.this.of.data[5160] = -1;
+        ShopPanel.this.of.data[5161] = -1;
+        ShopPanel.this.of.data[5162] = -1;
+        ShopPanel.this.of.data[5163] = -1;
+        ShopPanel.this.of.data[5164] = Byte.MAX_VALUE;
         ShopPanel.this.of.data[52] = 100;
         ShopPanel.this.status.setText("Unlocked");
       }
