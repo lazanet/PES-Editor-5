@@ -297,7 +297,7 @@ public class TeamPanel
   
   public void refresh()
   {
-    String[] arrayOfString = new String['Ê'];
+    String[] arrayOfString = new String[202];
     this.firstFlag = 284;
     this.stadiumBox.setActionCommand("n");
     this.stadiumBox.removeAllItems();
